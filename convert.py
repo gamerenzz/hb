@@ -51,6 +51,7 @@ def get_group_title(channel_name):
 
 # 2. 定义分组间的排序优先级
 def sort_groups_key(group_name):
+    # 数值越小排在越前面
     priorities = {
         "央视频道": 0,
         "卫视频道": 1,
@@ -58,7 +59,8 @@ def sort_groups_key(group_name):
         "港澳台": 3,
         "影视频道": 4,
         "数字特种": 5,
-        "4K频道": 99   # 4K 频道永远在最后
+        # 其他未指定的分组默认优先级为 50（排在数字特种之后，4K频道之前）
+        "4K频道": 99   # 确保 4K 频道永远在最后
     }
     priority = priorities.get(group_name, 50)
     return (priority, group_name)
@@ -97,67 +99,30 @@ def main():
         return int(match.group(1)) if match else filename
     txt_files.sort(key=extract_number)
 
-    # 记录基础频道名（去除了HD/SD后的名字）首次出现的顺序，用于保持频道的自然排布
-    base_name_order = {}
-    # 使用字典存储分组频道，结构为：{分组名: [(净化后的名字, URL, 原始后缀类型, 基础名字)]}
+    # 使用字典将频道按分组名归类存储
     grouped_channels = defaultdict(list)
 
-    # 依次解析每个 txt 文件
+    # 依次解析每个 txt 文件并将频道分类
     for file_name in txt_files:
         txt_path = os.path.join(config_dir, file_name)
         channels = parse_txt_file(txt_path)
-        
-        for original_name, url in channels:
-            # 1. 4K 频道不作更名处理
-            if "4K" in original_name.upper():
-                suffix_type = 'OTHER'
-                cleaned_name = original_name
-            else:
-                # 2. 去除名字末尾的 HD 或 SD
-                if original_name.upper().endswith("HD"):
-                    suffix_type = 'HD'
-                    cleaned_name = original_name[:-2].strip()
-                elif original_name.upper().endswith("SD"):
-                    suffix_type = 'SD'
-                    cleaned_name = original_name[:-2].strip()
-                else:
-                    suffix_type = 'OTHER'
-                    cleaned_name = original_name
-            
-            base_name = cleaned_name
-            # 记录频道出现的先后顺序
-            if base_name not in base_name_order:
-                base_name_order[base_name] = len(base_name_order)
-                
-            group = get_group_title(original_name)
-            grouped_channels[group].append((cleaned_name, url, suffix_type, base_name))
-            
+        for name, url in channels:
+            group = get_group_title(name)
+            grouped_channels[group].append((name, url))
         print(f"已解析 {file_name}，获取到 {len(channels)} 个频道")
 
     # 对现有的分组名称进行排序
     sorted_group_names = sorted(grouped_channels.keys(), key=sort_groups_key)
 
-    # 写入到 live.m3u
+    # 按照排好的分组顺序写入到 live.m3u
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         for group in sorted_group_names:
-            channels_in_group = grouped_channels[group]
-            
-            # 3. 排序函数：确保相同 base_name 挨在一起，且 HD 排在 SD 前面
-            def channel_sort_key(item):
-                cleaned_name, url, suffix_type, base_name = item
-                base_idx = base_name_order.get(base_name, 999999)
-                # 定义后缀优先级值：HD 优先(0)，无后缀次之(1)，SD 最后(2)
-                suffix_order = 0 if suffix_type == 'HD' else (2 if suffix_type == 'SD' else 1)
-                return (base_idx, suffix_order)
-                
-            sorted_channels = sorted(channels_in_group, key=channel_sort_key)
-            
-            for cleaned_name, url, suffix_type, base_name in sorted_channels:
-                f.write(f'#EXTINF:-1 tvg-name="{cleaned_name}" group-title="{group}",{cleaned_name}\n')
+            for name, url in grouped_channels[group]:
+                f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="{group}",{name}\n')
                 f.write(f"{url}\n")
             
-    print(f"排序及合并完成！已生成无HD/SD后缀的 M3U 文件: {output_file}")
+    print(f"排序及合并完成！已生成根目录下的 M3U 文件: {output_file} (含有 {len(sorted_group_names)} 个分组)")
 
 if __name__ == "__main__":
     main()
