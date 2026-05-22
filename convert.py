@@ -51,7 +51,6 @@ def get_group_title(channel_name):
 
 # 2. 定义分组间的排序优先级
 def sort_groups_key(group_name):
-    # 数值越小排在越前面
     priorities = {
         "央视频道": 0,
         "卫视频道": 1,
@@ -59,7 +58,6 @@ def sort_groups_key(group_name):
         "港澳台": 3,
         "影视频道": 4,
         "数字特种": 5,
-        # 其他未指定的分组默认优先级为 50（排在数字特种之后，4K频道之前）
         "4K频道": 99   # 确保 4K 频道永远在最后
     }
     priority = priorities.get(group_name, 50)
@@ -99,30 +97,42 @@ def main():
         return int(match.group(1)) if match else filename
     txt_files.sort(key=extract_number)
 
-    # 使用字典将频道按分组名归类存储
     grouped_channels = defaultdict(list)
+    total_filtered_sd = 0  # 统计被过滤的 SD 频道数量
 
     # 依次解析每个 txt 文件并将频道分类
     for file_name in txt_files:
         txt_path = os.path.join(config_dir, file_name)
         channels = parse_txt_file(txt_path)
+        
         for name, url in channels:
+            # 过滤条件：如果频道名称以 "SD" 或 "sd" 结尾，则跳过不处理
+            if name.upper().endswith("SD"):
+                total_filtered_sd += 1
+                continue
+            
             group = get_group_title(name)
             grouped_channels[group].append((name, url))
-        print(f"已解析 {file_name}，获取到 {len(channels)} 个频道")
+            
+        print(f"已解析 {file_name}，当前文件获取到 {len(channels)} 个频道")
 
     # 对现有的分组名称进行排序
     sorted_group_names = sorted(grouped_channels.keys(), key=sort_groups_key)
 
     # 按照排好的分组顺序写入到 live.m3u
+    total_saved_channels = 0
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         for group in sorted_group_names:
             for name, url in grouped_channels[group]:
                 f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="{group}",{name}\n')
                 f.write(f"{url}\n")
+                total_saved_channels += 1
             
-    print(f"排序及合并完成！已生成根目录下的 M3U 文件: {output_file} (含有 {len(sorted_group_names)} 个分组)")
+    print(f"处理完成！")
+    print(f"  - 过滤掉以 SD 结尾的频道：{total_filtered_sd} 个")
+    print(f"  - 成功写入 m3u 的频道总数：{total_saved_channels} 个")
+    print(f"  - 生成文件路径: {output_file}")
 
 if __name__ == "__main__":
     main()
