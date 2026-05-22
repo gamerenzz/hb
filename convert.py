@@ -26,7 +26,7 @@ def get_group_title(channel_name):
         return "影视频道"
     
     # 6. 体育频道
-    if any(x in channel_name for x in ["体育", "足球", "高尔夫", "网球", "台球", "垂钓", "兵器", "武术", "健身", "赛事"]):
+    if any(x in channel_name for x in ["体育", "足球", "高尔夫", "网球", "台球", "垂钓", "乒羽", "兵器", "武术", "赛事"]):
         return "体育频道"
     
     # 7. 教育频道
@@ -34,7 +34,7 @@ def get_group_title(channel_name):
         return "教育频道"
     
     # 8. 港澳台/海外频道
-    if any(x in channel_name for x in ["凤凰", "翡翠", "TVB"]):
+    if any(x in channel_name for x in ["凤凰", "港台", "翡翠", "TVB"]):
         return "港澳台"
     
     # 9. 购物频道
@@ -44,16 +44,16 @@ def get_group_title(channel_name):
     # 10. 数字/特种频道（默认兜底）
     return "数字特种"
 
-def convert_txt_to_m3u(txt_path, m3u_path):
+def parse_txt_file(txt_path):
+    channels = []
     if not os.path.exists(txt_path):
-        return
+        return channels
     
     with open(txt_path, 'r', encoding='utf-8') as f:
         lines = [line.strip() for line in f if line.strip()]
         
-    channels = []
     i = 0
-    # 按照 3 行一个循环进行解析（名称 -> copy to clip -> URL）
+    # 按照 3 行一个循环进行解析
     while i < len(lines):
         if i + 2 < len(lines) and "copy" in lines[i+1].lower():
             name = lines[i]
@@ -61,32 +61,44 @@ def convert_txt_to_m3u(txt_path, m3u_path):
             channels.append((name, url))
             i += 3
         else:
-            i += 1  # 容错处理：不符合格式则向下移动一行
-
-    # 写入 M3U 文件
-    with open(m3u_path, 'w', encoding='utf-8') as f:
-        f.write("#EXTM3U\n")
-        for name, url in channels:
-            group = get_group_title(name)
-            # 写入 M3U 标准格式
-            f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="{group}",{name}\n')
-            f.write(f"{url}\n")
-            
-    print(f"成功转换: {txt_path} -> {m3u_path} (共 {len(channels)} 个频道)")
+            i += 1  # 容错处理
+    return channels
 
 def main():
     config_dir = "config"
+    output_file = "live.m3u"  # 根目录下的合并输出文件名
+    
     if not os.path.exists(config_dir):
         print("未找到 config 目录")
         return
 
-    # 遍历 config 目录下所有的 .txt 文件
-    for file_name in os.listdir(config_dir):
-        if file_name.endswith(".txt"):
-            txt_path = os.path.join(config_dir, file_name)
-            m3u_name = file_name.replace(".txt", ".m3u")
-            m3u_path = os.path.join(config_dir, m3u_name)
-            convert_txt_to_m3u(txt_path, m3u_path)
+    # 过滤出所有的 .txt 文件
+    txt_files = [f for f in os.listdir(config_dir) if f.endswith(".txt")]
+    
+    # 按照文件名中的数字进行自然排序（防止 10.txt 排在 2.txt 前面）
+    def extract_number(filename):
+        match = re.search(r'(\d+)', filename)
+        return int(match.group(1)) if match else filename
+
+    txt_files.sort(key=extract_number)
+
+    all_channels = []
+    # 依次解析每个 txt 文件并合并
+    for file_name in txt_files:
+        txt_path = os.path.join(config_dir, file_name)
+        channels = parse_txt_file(txt_path)
+        all_channels.extend(channels)
+        print(f"已解析 {file_name}，获取到 {len(channels)} 个频道")
+
+    # 写入统一的 M3U 文件到根目录
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("#EXTM3U\n")
+        for name, url in all_channels:
+            group = get_group_title(name)
+            f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="{group}",{name}\n')
+            f.write(f"{url}\n")
+            
+    print(f"合并完成！已生成根目录下的 M3U 文件: {output_file} (总计 {len(all_channels)} 个频道)")
 
 if __name__ == "__main__":
     main()
