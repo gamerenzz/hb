@@ -1,0 +1,44 @@
+name: Auto Convert TXT to M3U
+
+on:
+  schedule:
+    # 每天 UTC 时间 16:00 (北京时间 00:00) 自动运行
+    - cron: '0 16 * * *'
+  push:
+    paths:
+      - 'config/**.txt'  # 当 config 文件夹下的 txt 文件有更新时触发
+  workflow_dispatch:    # 支持在 GitHub 页面上点击按钮手动触发
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 赋予写入权限，以便能够将生成的 m3u 文件推送回仓库
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run convert script
+        run: python convert.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 暂存所有生成的 m3u 文件
+          git add config/*.m3u
+          
+          # 检查是否有文件更新，若有则提交并推送
+          if git diff --cached --quiet; then
+            echo "没有发现内容变化，跳过提交。"
+          else
+            git commit -m "自动更新: 转换 TXT 频道列表至 M3U 格式"
+            git push
+          fi
