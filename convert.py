@@ -5,43 +5,47 @@ import re
 def get_group_title(channel_name):
     name_upper = channel_name.upper()
     
-    # 1. 央视频道
+    # 1. 4K 频道 (最高优先级，包含 "4K" 的频道优先归为此类)
+    if "4K" in name_upper:
+        return "4K频道"
+    
+    # 2. 央视频道
     if "CCTV" in name_upper or "CGTN" in name_upper:
         return "央视频道"
     
-    # 2. 湖北频道
+    # 3. 湖北频道
     if any(x in channel_name for x in ["湖北", "武汉", "蔡甸", "房县", "阳新"]):
         return "湖北频道"
     
-    # 3. 卫视频道
+    # 4. 卫视频道
     if "卫视" in channel_name:
         return "卫视频道"
     
-    # 4. 少儿/动漫频道
+    # 5. 少儿/动漫频道
     if any(x in channel_name for x in ["卡通", "少儿", "动漫", "玩具"]):
         return "少儿频道"
     
-    # 5. 影视频道
+    # 6. 影视频道
     if any(x in channel_name for x in ["影迷", "动作", "剧场", "电影", "影视", "电视剧"]):
         return "影视频道"
     
-    # 6. 体育频道
+    # 7. 体育频道
     if any(x in channel_name for x in ["体育", "足球", "高尔夫", "网球", "台球", "垂钓", "乒羽", "兵器", "武术", "赛事"]):
         return "体育频道"
     
-    # 7. 教育频道
+    # 8. 教育频道
     if any(x in name_upper for x in ["CETV", "教育", "中学生", "学堂", "金色学堂"]):
         return "教育频道"
     
-    # 8. 港澳台/海外频道
+    # 9. 港澳台/海外频道
     if any(x in channel_name for x in ["凤凰", "港台", "翡翠", "TVB"]):
         return "港澳台"
     
-    # 9. 购物频道
+    # 10. 购物频道
     if any(x in channel_name for x in ["购物", "消费", "精选"]):
         return "购物频道"
     
-    # 10. 数字/特种频道（默认兜底）
+    # 11. 数字/特种频道（默认兜底）
     return "数字特种"
 
 def parse_txt_file(txt_path):
@@ -53,7 +57,6 @@ def parse_txt_file(txt_path):
         lines = [line.strip() for line in f if line.strip()]
         
     i = 0
-    # 按照 3 行一个循环进行解析
     while i < len(lines):
         if i + 2 < len(lines) and "copy" in lines[i+1].lower():
             name = lines[i]
@@ -61,7 +64,7 @@ def parse_txt_file(txt_path):
             channels.append((name, url))
             i += 3
         else:
-            i += 1  # 容错处理
+            i += 1
     return channels
 
 def main():
@@ -75,7 +78,7 @@ def main():
     # 过滤出所有的 .txt 文件
     txt_files = [f for f in os.listdir(config_dir) if f.endswith(".txt")]
     
-    # 按照文件名中的数字进行自然排序（防止 10.txt 排在 2.txt 前面）
+    # 按照文件名中的数字进行自然排序
     def extract_number(filename):
         match = re.search(r'(\d+)', filename)
         return int(match.group(1)) if match else filename
