@@ -630,8 +630,6 @@ http://219.139.231.241:6868/rtp/239.69.1.242:11094
 #EXTINF:-1 tvg-name="第一剧场HD" group-title="影视频道",第一剧场HD
 http://219.139.231.241:6868/rtp/239.69.1.74:10084
 #EXTINF:-1 tvg-name="怀旧剧场HD" group-title="影视频道",怀旧剧场HD
-http://219.139.231.241:6868/rtp/239.69.1.86:10156
-#EXTINF:-1 tvg-name="怀旧剧场HD" group-title="影视频道",怀旧剧场HD
 http://219.139.231.241:6868/rtp/239.69.1.89:10174
 #EXTINF:-1 tvg-name="都市剧场HD" group-title="影视频道",都市剧场HD
 http://219.139.231.241:6868/rtp/239.69.2.4:11178
@@ -749,6 +747,8 @@ http://219.139.231.241:6868/rtp/239.69.1.90:10180
 http://219.139.231.241:6868/rtp/239.69.1.91:10186
 #EXTINF:-1 tvg-name="电视指南HD" group-title="数字特种",电视指南HD
 http://219.139.231.241:6868/rtp/239.69.1.87:10162
+#EXTINF:-1 tvg-name="女性时尚HD" group-title="数字特种",女性时尚HD
+http://219.139.231.241:6868/rtp/239.69.1.86:10156
 #EXTINF:-1 tvg-name="梨园频道HD" group-title="数字特种",梨园频道HD
 http://219.139.231.241:6868/rtp/239.69.1.33:9838
 #EXTINF:-1 tvg-name="法治天地HD" group-title="数字特种",法治天地HD
