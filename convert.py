@@ -63,23 +63,28 @@ def sort_groups_key(group_name):
     priority = priorities.get(group_name, 50)
     return (priority, group_name)
 
+# 3. 解析 txt 文件（修改后的逻辑，适应 "频道名,URL" 格式）
 def parse_txt_file(txt_path):
     channels = []
     if not os.path.exists(txt_path):
         return channels
     
-    with open(txt_path, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f if line.strip()]
-        
-    i = 0
-    while i < len(lines):
-        if i + 2 < len(lines) and "copy" in lines[i+1].lower():
-            name = lines[i]
-            url = lines[i+2]
-            channels.append((name, url))
-            i += 3
-        else:
-            i += 1
+    with open(txt_path, 'r', encoding='utf-8', errors='ignore') as f:
+        for line in f:
+            line = line.strip()
+            if not line or "#genre#" in line:
+                continue
+            
+            # 支持 频道名,URL 格式
+            if "," in line:
+                parts = line.split(",", 1)
+                name = parts[0].strip()
+                url = parts[1].strip()
+                
+                # 确保 URL 是有效的 HTTP/RTP 地址，过滤掉标题行（如：by cqshushu | 公众号...）
+                if url.startswith("http://") or url.startswith("https://") or url.startswith("rtp://"):
+                    channels.append((name, url))
+                    
     return channels
 
 def main():
