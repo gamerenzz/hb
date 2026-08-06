@@ -1,92 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1
-http://171.213.114.121:4500/rtp/239.94.0.1:5140
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1
-http://171.213.114.121:4500/rtp/239.94.2.34:5140
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1
-http://171.213.114.121:4500/rtp/239.94.1.18:5140
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1
-http://171.213.114.121:4500/rtp/239.94.1.151:5140
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1
-http://171.213.114.121:4500/rtp/239.94.0.31:5140
-#EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1
-http://171.213.114.121:4500/rtp/239.94.2.69:5140
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",CCTV2
-http://171.213.114.121:4500/rtp/239.94.2.70:5140
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",CCTV2
-http://171.213.114.121:4500/rtp/239.94.0.2:5140
-#EXTINF:-1 tvg-name="CCTV2" group-title="央视频道",CCTV2
-http://171.213.114.121:4500/rtp/239.94.2.35:5140
-#EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",CCTV3
-http://171.213.114.121:4500/rtp/239.94.0.32:5140
-#EXTINF:-1 tvg-name="CCTV3" group-title="央视频道",CCTV3
-http://171.213.114.121:4500/rtp/239.94.0.3:5140
-#EXTINF:-1 tvg-name="CCTV4" group-title="央视频道",CCTV4
-http://171.213.114.121:4500/rtp/239.94.0.4:5140
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",CCTV5
-http://171.213.114.121:4500/rtp/239.94.0.33:5140
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",CCTV5
-http://171.213.114.121:4500/rtp/239.94.2.30:5140
-#EXTINF:-1 tvg-name="CCTV5" group-title="央视频道",CCTV5
-http://171.213.114.121:4500/rtp/239.94.0.5:5140
-#EXTINF:-1 tvg-name="CCTV5+" group-title="央视频道",CCTV5+
-http://171.213.114.121:4500/rtp/239.94.0.19:5140
-#EXTINF:-1 tvg-name="CCTV5+" group-title="央视频道",CCTV5+
-http://171.213.114.121:4500/rtp/239.94.0.23:5140
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",CCTV6
-http://171.213.114.121:4500/rtp/239.94.0.6:5140
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",CCTV6
-http://171.213.114.121:4500/rtp/239.94.2.33:5140
-#EXTINF:-1 tvg-name="CCTV6" group-title="央视频道",CCTV6
-http://171.213.114.121:4500/rtp/239.94.0.34:5140
-#EXTINF:-1 tvg-name="CCTV7" group-title="央视频道",CCTV7
-http://171.213.114.121:4500/rtp/239.94.0.7:5140
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",CCTV8
-http://171.213.114.121:4500/rtp/239.94.0.8:5140
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",CCTV8
-http://171.213.114.121:4500/rtp/239.94.0.35:5140
-#EXTINF:-1 tvg-name="CCTV8" group-title="央视频道",CCTV8
-http://171.213.114.121:4500/rtp/239.94.2.29:5140
-#EXTINF:-1 tvg-name="CCTV9" group-title="央视频道",CCTV9
-http://171.213.114.121:4500/rtp/239.94.2.32:5140
-#EXTINF:-1 tvg-name="CCTV9" group-title="央视频道",CCTV9
-http://171.213.114.121:4500/rtp/239.94.0.9:5140
-#EXTINF:-1 tvg-name="CCTV10" group-title="央视频道",CCTV10
-http://171.213.114.121:4500/rtp/239.94.0.10:5140
-#EXTINF:-1 tvg-name="CCTV10" group-title="央视频道",CCTV10
-http://171.213.114.121:4500/rtp/239.94.2.31:5140
-#EXTINF:-1 tvg-name="CCTV11" group-title="央视频道",CCTV11
-http://171.213.114.121:4500/rtp/239.94.0.11:5140
-#EXTINF:-1 tvg-name="CCTV11" group-title="央视频道",CCTV11
-http://171.213.114.121:4500/rtp/239.94.0.36:5140
-#EXTINF:-1 tvg-name="CCTV12" group-title="央视频道",CCTV12
-http://171.213.114.121:4500/rtp/239.94.0.12:5140
-#EXTINF:-1 tvg-name="CCTV13" group-title="央视频道",CCTV13
-http://171.213.114.121:4500/rtp/239.94.0.13:5140
-#EXTINF:-1 tvg-name="CCTV13" group-title="央视频道",CCTV13
-http://171.213.114.121:4500/rtp/239.94.0.37:5140
-#EXTINF:-1 tvg-name="CCTV14" group-title="央视频道",CCTV14
-http://171.213.114.121:4500/rtp/239.94.0.14:5140
-#EXTINF:-1 tvg-name="CCTV15" group-title="央视频道",CCTV15
-http://171.213.114.121:4500/rtp/239.94.0.15:5140
-#EXTINF:-1 tvg-name="CCTV15" group-title="央视频道",CCTV15
-http://171.213.114.121:4500/rtp/239.94.0.38:5140
-#EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",CCTV17
-http://171.213.114.121:4500/rtp/239.94.0.39:5140
-#EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",CCTV17
-http://171.213.114.121:4500/rtp/239.94.0.17:5140
-#EXTINF:-1 tvg-name="CGTN" group-title="央视频道",CGTN
-http://171.213.114.121:4500/rtp/239.94.0.22:5140
-#EXTINF:-1 tvg-name="CGTN" group-title="央视频道",CGTN
-http://171.213.114.121:4500/rtp/239.94.0.40:5140
-#EXTINF:-1 tvg-name="CGTN西语" group-title="央视频道",CGTN西语
-http://171.213.114.121:4500/rtp/239.94.1.61:5140
-#EXTINF:-1 tvg-name="CGTN西语" group-title="央视频道",CGTN西语
-http://171.213.114.121:4500/rtp/239.94.1.65:5140
-#EXTINF:-1 tvg-name="CGTN法语" group-title="央视频道",CGTN法语
-http://171.213.114.121:4500/rtp/239.94.1.62:5140
-#EXTINF:-1 tvg-name="CGTN法语" group-title="央视频道",CGTN法语
-http://171.213.114.121:4500/rtp/239.94.1.66:5140
 #EXTINF:-1 tvg-name="CCTV1HD" group-title="央视频道",CCTV1HD
 http://121.63.54.15:4022/rtp/239.254.96.96:8550
 #EXTINF:-1 tvg-name="CCTV2HD" group-title="央视频道",CCTV2HD
@@ -379,84 +291,6 @@ http://123.96.31.99:9999/rtp/233.50.200.133:5140
 http://123.96.31.99:9999/rtp/233.50.202.40:5140
 #EXTINF:-1 tvg-name="CCTV17" group-title="央视频道",CCTV17
 http://123.96.31.99:9999/rtp/233.50.200.113:5140
-#EXTINF:-1 tvg-name="重庆卫视" group-title="卫视频道",重庆卫视
-http://171.213.114.121:4500/rtp/239.94.0.82:5140
-#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视频道",江苏卫视
-http://171.213.114.121:4500/rtp/239.94.0.62:5140
-#EXTINF:-1 tvg-name="浙江卫视" group-title="卫视频道",浙江卫视
-http://171.213.114.121:4500/rtp/239.94.0.63:5140
-#EXTINF:-1 tvg-name="东方卫视" group-title="卫视频道",东方卫视
-http://171.213.114.121:4500/rtp/239.94.0.64:5140
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视频道",深圳卫视
-http://171.213.114.121:4500/rtp/239.94.0.66:5140
-#EXTINF:-1 tvg-name="北京卫视" group-title="卫视频道",北京卫视
-http://171.213.114.121:4500/rtp/239.94.0.65:5140
-#EXTINF:-1 tvg-name="山东卫视" group-title="卫视频道",山东卫视
-http://171.213.114.121:4500/rtp/239.94.0.69:5140
-#EXTINF:-1 tvg-name="天津卫视" group-title="卫视频道",天津卫视
-http://171.213.114.121:4500/rtp/239.94.0.68:5140
-#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视频道",贵州卫视
-http://171.213.114.121:4500/rtp/239.94.0.83:5140
-#EXTINF:-1 tvg-name="四川卫视" group-title="卫视频道",四川卫视
-http://171.213.114.121:4500/rtp/239.94.0.60:5140
-#EXTINF:-1 tvg-name="四川卫视" group-title="卫视频道",四川卫视
-http://171.213.114.121:4500/rtp/239.94.0.59:5140
-#EXTINF:-1 tvg-name="云南卫视" group-title="卫视频道",云南卫视
-http://171.213.114.121:4500/rtp/239.94.0.90:5140
-#EXTINF:-1 tvg-name="广西卫视" group-title="卫视频道",广西卫视
-http://171.213.114.121:4500/rtp/239.94.0.89:5140
-#EXTINF:-1 tvg-name="黑龙江卫视" group-title="卫视频道",黑龙江卫视
-http://171.213.114.121:4500/rtp/239.94.0.81:5140
-#EXTINF:-1 tvg-name="安徽卫视" group-title="卫视频道",安徽卫视
-http://171.213.114.121:4500/rtp/239.94.0.85:5140
-#EXTINF:-1 tvg-name="江西卫视" group-title="卫视频道",江西卫视
-http://171.213.114.121:4500/rtp/239.94.0.79:5140
-#EXTINF:-1 tvg-name="陕西卫视" group-title="卫视频道",陕西卫视
-http://171.213.114.121:4500/rtp/239.94.0.92:5140
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视频道",东南卫视
-http://171.213.114.121:4500/rtp/239.94.0.80:5140
-#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视频道",吉林卫视
-http://171.213.114.121:4500/rtp/239.94.0.91:5140
-#EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视频道",辽宁卫视
-http://171.213.114.121:4500/rtp/239.94.0.101:5140
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视频道",湖南卫视
-http://171.213.114.121:4500/rtp/239.94.0.61:5140
-#EXTINF:-1 tvg-name="广东卫视" group-title="卫视频道",广东卫视
-http://171.213.114.121:4500/rtp/239.94.0.67:5140
-#EXTINF:-1 tvg-name="河南卫视" group-title="卫视频道",河南卫视
-http://171.213.114.121:4500/rtp/239.94.0.88:5140
-#EXTINF:-1 tvg-name="河北卫视" group-title="卫视频道",河北卫视
-http://171.213.114.121:4500/rtp/239.94.0.86:5140
-#EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视频道",宁夏卫视
-http://171.213.114.121:4500/rtp/239.94.0.96:5140
-#EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视频道",甘肃卫视
-http://171.213.114.121:4500/rtp/239.94.0.99:5140
-#EXTINF:-1 tvg-name="新疆卫视" group-title="卫视频道",新疆卫视
-http://171.213.114.121:4500/rtp/239.94.0.98:5140
-#EXTINF:-1 tvg-name="西藏卫视" group-title="卫视频道",西藏卫视
-http://171.213.114.121:4500/rtp/239.94.0.97:5140
-#EXTINF:-1 tvg-name="兵团卫视" group-title="卫视频道",兵团卫视
-http://171.213.114.121:4500/rtp/239.94.0.102:5140
-#EXTINF:-1 tvg-name="康巴卫视" group-title="卫视频道",康巴卫视
-http://171.213.114.121:4500/rtp/239.94.0.78:5140
-#EXTINF:-1 tvg-name="九画面卫视1" group-title="卫视频道",九画面卫视1
-http://171.213.114.121:4500/rtp/239.94.2.133:5140
-#EXTINF:-1 tvg-name="九画面卫视1" group-title="卫视频道",九画面卫视1
-http://171.213.114.121:4500/rtp/239.94.2.132:5140
-#EXTINF:-1 tvg-name="九画面卫视2" group-title="卫视频道",九画面卫视2
-http://171.213.114.121:4500/rtp/239.94.2.134:5140
-#EXTINF:-1 tvg-name="九画面卫视2" group-title="卫视频道",九画面卫视2
-http://171.213.114.121:4500/rtp/239.94.2.135:5140
-#EXTINF:-1 tvg-name="九画面卫视3" group-title="卫视频道",九画面卫视3
-http://171.213.114.121:4500/rtp/239.94.2.136:5140
-#EXTINF:-1 tvg-name="九画面卫视3" group-title="卫视频道",九画面卫视3
-http://171.213.114.121:4500/rtp/239.94.2.137:5140
-#EXTINF:-1 tvg-name="九画面卫视4" group-title="卫视频道",九画面卫视4
-http://171.213.114.121:4500/rtp/239.94.2.141:5140
-#EXTINF:-1 tvg-name="九画面卫视4" group-title="卫视频道",九画面卫视4
-http://171.213.114.121:4500/rtp/239.94.2.139:5140
-#EXTINF:-1 tvg-name="九画面卫视5" group-title="卫视频道",九画面卫视5
-http://171.213.114.121:4500/rtp/239.94.2.140:5140
 #EXTINF:-1 tvg-name="重庆卫视HD" group-title="卫视频道",重庆卫视HD
 http://121.63.54.15:4022/rtp/239.69.1.149:10530
 #EXTINF:-1 tvg-name="江苏卫视HD" group-title="卫视频道",江苏卫视HD
@@ -861,10 +695,6 @@ http://123.96.31.99:9999/rtp/233.50.202.44:5140
 http://123.96.31.99:9999/rtp/233.50.200.175:5140
 #EXTINF:-1 tvg-name="海南卫视" group-title="卫视频道",海南卫视
 http://123.96.31.99:9999/rtp/233.50.200.165:5140
-#EXTINF:-1 tvg-name="湖北卫视" group-title="湖北频道",湖北卫视
-http://171.213.114.121:4500/rtp/239.94.0.84:5140
-#EXTINF:-1 tvg-name="德阳新闻综合" group-title="湖北频道",德阳新闻综合
-http://171.213.114.121:4500/rtp/239.94.0.176:5140
 #EXTINF:-1 tvg-name="湖北综合HD" group-title="湖北频道",湖北综合HD
 http://121.63.54.15:4022/rtp/239.69.1.42:9892
 #EXTINF:-1 tvg-name="湖北公共新闻HD" group-title="湖北频道",湖北公共新闻HD
@@ -939,14 +769,6 @@ http://171.80.241.155:9123/rtp/239.254.96.115:8664
 http://123.96.31.99:9999/rtp/233.50.201.114:5140
 #EXTINF:-1 tvg-name="湖北卫视" group-title="湖北频道",湖北卫视
 http://123.96.31.99:9999/rtp/233.50.200.147:5140
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台",凤凰中文
-http://171.213.114.121:4500/rtp/239.94.2.51:5140
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台",凤凰中文
-http://171.213.114.121:4500/rtp/239.94.2.52:5140
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",凤凰资讯
-http://171.213.114.121:4500/rtp/239.94.2.49:5140
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",凤凰资讯
-http://171.213.114.121:4500/rtp/239.94.2.50:5140
 #EXTINF:-1 tvg-name="凤凰中文台HD" group-title="港澳台",凤凰中文台HD
 http://121.63.54.15:4022/rtp/239.69.2.20:11274
 #EXTINF:-1 tvg-name="凤凰资讯台HD" group-title="港澳台",凤凰资讯台HD
@@ -959,30 +781,6 @@ http://171.80.241.155:9123/rtp/239.69.2.19:11268
 http://123.96.31.99:9999/rtp/233.50.202.35:5140
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",凤凰资讯
 http://123.96.31.99:9999/rtp/233.50.202.36:5140
-#EXTINF:-1 tvg-name="CHC影迷电影" group-title="影视频道",CHC影迷电影
-http://171.213.114.121:4500/rtp/239.94.1.174:5140
-#EXTINF:-1 tvg-name="CHC动作电影" group-title="影视频道",CHC动作电影
-http://171.213.114.121:4500/rtp/239.94.1.175:5140
-#EXTINF:-1 tvg-name="都市剧场" group-title="影视频道",都市剧场
-http://171.213.114.121:4500/rtp/239.94.1.133:5140
-#EXTINF:-1 tvg-name="四川影视文艺" group-title="影视频道",四川影视文艺
-http://171.213.114.121:4500/rtp/239.94.0.73:5140
-#EXTINF:-1 tvg-name="峨眉电影" group-title="影视频道",峨眉电影
-http://171.213.114.121:4500/rtp/239.94.0.103:5140
-#EXTINF:-1 tvg-name="成都影视" group-title="影视频道",成都影视
-http://171.213.114.121:4500/rtp/239.94.0.157:5140
-#EXTINF:-1 tvg-name="热播剧场" group-title="影视频道",热播剧场
-http://171.213.114.121:4500/rtp/239.94.1.25:5140
-#EXTINF:-1 tvg-name="经典电影" group-title="影视频道",经典电影
-http://171.213.114.121:4500/rtp/239.94.1.21:5140
-#EXTINF:-1 tvg-name="精彩影视" group-title="影视频道",精彩影视
-http://171.213.114.121:4500/rtp/239.94.1.172:5140
-#EXTINF:-1 tvg-name="热门剧场" group-title="影视频道",热门剧场
-http://171.213.114.121:4500/rtp/239.94.1.26:5140
-#EXTINF:-1 tvg-name="经典剧场" group-title="影视频道",经典剧场
-http://171.213.114.121:4500/rtp/239.94.1.49:5140
-#EXTINF:-1 tvg-name="谍战剧场" group-title="影视频道",谍战剧场
-http://171.213.114.121:4500/rtp/239.94.1.28:5140
 #EXTINF:-1 tvg-name="CHC影迷电影HD" group-title="影视频道",CHC影迷电影HD
 http://121.63.54.15:4022/rtp/239.69.1.241:11088
 #EXTINF:-1 tvg-name="CHC动作电影HD" group-title="影视频道",CHC动作电影HD
@@ -1071,254 +869,6 @@ http://123.96.31.99:9999/rtp/233.50.200.229:5140
 http://123.96.31.99:9999/rtp/233.50.201.134:5140
 #EXTINF:-1 tvg-name="杭州影视" group-title="影视频道",杭州影视
 http://123.96.31.99:9999/rtp/233.50.201.176:5140
-#EXTINF:-1 tvg-name="CHC家庭影院" group-title="数字特种",CHC家庭影院
-http://171.213.114.121:4500/rtp/239.94.1.173:5140
-#EXTINF:-1 tvg-name="梨园频道" group-title="数字特种",梨园频道
-http://171.213.114.121:4500/rtp/239.94.1.16:5140
-#EXTINF:-1 tvg-name="天元围棋" group-title="数字特种",天元围棋
-http://171.213.114.121:4500/rtp/239.94.1.152:5140
-#EXTINF:-1 tvg-name="法治天地" group-title="数字特种",法治天地
-http://171.213.114.121:4500/rtp/239.94.1.166:5140
-#EXTINF:-1 tvg-name="游戏风云" group-title="数字特种",游戏风云
-http://171.213.114.121:4500/rtp/239.94.1.46:5140
-#EXTINF:-1 tvg-name="茶频道" group-title="数字特种",茶频道
-http://171.213.114.121:4500/rtp/239.94.1.154:5140
-#EXTINF:-1 tvg-name="金鹰纪实" group-title="数字特种",金鹰纪实
-http://171.213.114.121:4500/rtp/239.94.1.1:5140
-#EXTINF:-1 tvg-name="环球旅游" group-title="数字特种",环球旅游
-http://171.213.114.121:4500/rtp/239.94.1.147:5140
-#EXTINF:-1 tvg-name="生活时尚" group-title="数字特种",生活时尚
-http://171.213.114.121:4500/rtp/239.94.1.146:5140
-#EXTINF:-1 tvg-name="中国交通" group-title="数字特种",中国交通
-http://171.213.114.121:4500/rtp/239.94.0.87:5140
-#EXTINF:-1 tvg-name="中国天气" group-title="数字特种",中国天气
-http://171.213.114.121:4500/rtp/239.94.1.167:5140
-#EXTINF:-1 tvg-name="乐游" group-title="数字特种",乐游
-http://171.213.114.121:4500/rtp/239.94.1.164:5140
-#EXTINF:-1 tvg-name="北京纪实科教" group-title="数字特种",北京纪实科教
-http://171.213.114.121:4500/rtp/239.94.0.109:5140
-#EXTINF:-1 tvg-name="东方财经" group-title="数字特种",东方财经
-http://171.213.114.121:4500/rtp/239.94.1.59:5140
-#EXTINF:-1 tvg-name="四川文化旅游" group-title="数字特种",四川文化旅游
-http://171.213.114.121:4500/rtp/239.94.0.71:5140
-#EXTINF:-1 tvg-name="四川文化旅游" group-title="数字特种",四川文化旅游
-http://171.213.114.121:4500/rtp/239.94.1.11:5140
-#EXTINF:-1 tvg-name="四川文化旅游" group-title="数字特种",四川文化旅游
-http://171.213.114.121:4500/rtp/239.94.1.5:5140
-#EXTINF:-1 tvg-name="四川文化旅游" group-title="数字特种",四川文化旅游
-http://171.213.114.121:4500/rtp/239.94.1.6:5140
-#EXTINF:-1 tvg-name="四川经济" group-title="数字特种",四川经济
-http://171.213.114.121:4500/rtp/239.94.0.70:5140
-#EXTINF:-1 tvg-name="四川新闻" group-title="数字特种",四川新闻
-http://171.213.114.121:4500/rtp/239.94.0.72:5140
-#EXTINF:-1 tvg-name="四川新闻" group-title="数字特种",四川新闻
-http://171.213.114.121:4500/rtp/239.94.1.3:5140
-#EXTINF:-1 tvg-name="四川新闻" group-title="数字特种",四川新闻
-http://171.213.114.121:4500/rtp/239.94.2.26:5140
-#EXTINF:-1 tvg-name="四川妇女儿童" group-title="数字特种",四川妇女儿童
-http://171.213.114.121:4500/rtp/239.94.0.75:5140
-#EXTINF:-1 tvg-name="四川科教" group-title="数字特种",四川科教
-http://171.213.114.121:4500/rtp/239.94.0.76:5140
-#EXTINF:-1 tvg-name="四川乡村" group-title="数字特种",四川乡村
-http://171.213.114.121:4500/rtp/239.94.0.77:5140
-#EXTINF:-1 tvg-name="四川乡村" group-title="数字特种",四川乡村
-http://171.213.114.121:4500/rtp/239.94.1.4:5140
-#EXTINF:-1 tvg-name="四川乡村" group-title="数字特种",四川乡村
-http://171.213.114.121:4500/rtp/239.94.1.8:5140
-#EXTINF:-1 tvg-name="成都综合" group-title="数字特种",成都综合
-http://171.213.114.121:4500/rtp/239.94.0.154:5140
-#EXTINF:-1 tvg-name="成都经济" group-title="数字特种",成都经济
-http://171.213.114.121:4500/rtp/239.94.0.155:5140
-#EXTINF:-1 tvg-name="成都都市" group-title="数字特种",成都都市
-http://171.213.114.121:4500/rtp/239.94.0.156:5140
-#EXTINF:-1 tvg-name="成都公共" group-title="数字特种",成都公共
-http://171.213.114.121:4500/rtp/239.94.0.158:5140
-#EXTINF:-1 tvg-name="成都蓉城先锋" group-title="数字特种",成都蓉城先锋
-http://171.213.114.121:4500/rtp/239.94.0.160:5140
-#EXTINF:-1 tvg-name="成都蓉城先锋" group-title="数字特种",成都蓉城先锋
-http://171.213.114.121:4500/rtp/239.94.1.57:5140
-#EXTINF:-1 tvg-name="乐山综合" group-title="数字特种",乐山综合
-http://171.213.114.121:4500/rtp/239.94.0.162:5140
-#EXTINF:-1 tvg-name="乐山文旅生活" group-title="数字特种",乐山文旅生活
-http://171.213.114.121:4500/rtp/239.94.0.173:5140
-#EXTINF:-1 tvg-name="自贡综合" group-title="数字特种",自贡综合
-http://171.213.114.121:4500/rtp/239.94.0.169:5140
-#EXTINF:-1 tvg-name="自贡文化生活" group-title="数字特种",自贡文化生活
-http://171.213.114.121:4500/rtp/239.94.0.178:5140
-#EXTINF:-1 tvg-name="广元综合" group-title="数字特种",广元综合
-http://171.213.114.121:4500/rtp/239.94.0.167:5140
-#EXTINF:-1 tvg-name="广元文化生活" group-title="数字特种",广元文化生活
-http://171.213.114.121:4500/rtp/239.94.0.179:5140
-#EXTINF:-1 tvg-name="德阳文旅科教" group-title="数字特种",德阳文旅科教
-http://171.213.114.121:4500/rtp/239.94.0.165:5140
-#EXTINF:-1 tvg-name="内江综合" group-title="数字特种",内江综合
-http://171.213.114.121:4500/rtp/239.94.0.164:5140
-#EXTINF:-1 tvg-name="内江科教生活" group-title="数字特种",内江科教生活
-http://171.213.114.121:4500/rtp/239.94.0.181:5140
-#EXTINF:-1 tvg-name="凉山综合" group-title="数字特种",凉山综合
-http://171.213.114.121:4500/rtp/239.94.0.171:5140
-#EXTINF:-1 tvg-name="凉山彝语综合" group-title="数字特种",凉山彝语综合
-http://171.213.114.121:4500/rtp/239.94.0.175:5140
-#EXTINF:-1 tvg-name="资阳综合" group-title="数字特种",资阳综合
-http://171.213.114.121:4500/rtp/239.94.0.183:5140
-#EXTINF:-1 tvg-name="宜宾公共" group-title="数字特种",宜宾公共
-http://171.213.114.121:4500/rtp/239.94.0.172:5140
-#EXTINF:-1 tvg-name="宜宾综合" group-title="数字特种",宜宾综合
-http://171.213.114.121:4500/rtp/239.94.0.161:5140
-#EXTINF:-1 tvg-name="攀枝花综合" group-title="数字特种",攀枝花综合
-http://171.213.114.121:4500/rtp/239.94.0.168:5140
-#EXTINF:-1 tvg-name="泸州综合" group-title="数字特种",泸州综合
-http://171.213.114.121:4500/rtp/239.94.0.163:5140
-#EXTINF:-1 tvg-name="泸州科教生活" group-title="数字特种",泸州科教生活
-http://171.213.114.121:4500/rtp/239.94.0.182:5140
-#EXTINF:-1 tvg-name="雅安综合" group-title="数字特种",雅安综合
-http://171.213.114.121:4500/rtp/239.94.0.166:5140
-#EXTINF:-1 tvg-name="雅安文化生活" group-title="数字特种",雅安文化生活
-http://171.213.114.121:4500/rtp/239.94.0.180:5140
-#EXTINF:-1 tvg-name="眉山综合" group-title="数字特种",眉山综合
-http://171.213.114.121:4500/rtp/239.94.0.170:5140
-#EXTINF:-1 tvg-name="眉山文旅乡村" group-title="数字特种",眉山文旅乡村
-http://171.213.114.121:4500/rtp/239.94.0.174:5140
-#EXTINF:-1 tvg-name="财富天下" group-title="数字特种",财富天下
-http://171.213.114.121:4500/rtp/239.94.1.67:5140
-#EXTINF:-1 tvg-name="财富天下" group-title="数字特种",财富天下
-http://171.213.114.121:4500/rtp/239.94.1.42:5140
-#EXTINF:-1 tvg-name="魅力时尚" group-title="数字特种",魅力时尚
-http://171.213.114.121:4500/rtp/239.94.1.39:5140
-#EXTINF:-1 tvg-name="求索记录" group-title="数字特种",求索记录
-http://171.213.114.121:4500/rtp/239.94.1.142:5140
-#EXTINF:-1 tvg-name="音乐现场" group-title="数字特种",音乐现场
-http://171.213.114.121:4500/rtp/239.94.1.36:5140
-#EXTINF:-1 tvg-name="精彩导视" group-title="数字特种",精彩导视
-http://171.213.114.121:4500/rtp/239.94.1.63:5140
-#EXTINF:-1 tvg-name="爱生活" group-title="数字特种",爱生活
-http://171.213.114.121:4500/rtp/239.94.1.41:5140
-#EXTINF:-1 tvg-name="iHOT爱历史" group-title="数字特种",iHOT爱历史
-http://171.213.114.121:4500/rtp/239.94.1.135:5140
-#EXTINF:-1 tvg-name="iHOT爱喜剧" group-title="数字特种",iHOT爱喜剧
-http://171.213.114.121:4500/rtp/239.94.1.129:5140
-#EXTINF:-1 tvg-name="iHOT爱喜剧" group-title="数字特种",iHOT爱喜剧
-http://171.213.114.121:4500/rtp/239.94.2.71:5140
-#EXTINF:-1 tvg-name="iHOT爱奇谈" group-title="数字特种",iHOT爱奇谈
-http://171.213.114.121:4500/rtp/239.94.1.130:5140
-#EXTINF:-1 tvg-name="iHOT爱幼教" group-title="数字特种",iHOT爱幼教
-http://171.213.114.121:4500/rtp/239.94.1.139:5140
-#EXTINF:-1 tvg-name="iHOT爱悬疑" group-title="数字特种",iHOT爱悬疑
-http://171.213.114.121:4500/rtp/239.94.1.136:5140
-#EXTINF:-1 tvg-name="iHOT爱旅行" group-title="数字特种",iHOT爱旅行
-http://171.213.114.121:4500/rtp/239.94.1.137:5140
-#EXTINF:-1 tvg-name="iHOT爱浪漫" group-title="数字特种",iHOT爱浪漫
-http://171.213.114.121:4500/rtp/239.94.1.128:5140
-#EXTINF:-1 tvg-name="iHOT爱科幻" group-title="数字特种",iHOT爱科幻
-http://171.213.114.121:4500/rtp/239.94.1.131:5140
-#EXTINF:-1 tvg-name="iHOT爱谍战" group-title="数字特种",iHOT爱谍战
-http://171.213.114.121:4500/rtp/239.94.1.134:5140
-#EXTINF:-1 tvg-name="iHOT爱赛车" group-title="数字特种",iHOT爱赛车
-http://171.213.114.121:4500/rtp/239.94.1.144:5140
-#EXTINF:-1 tvg-name="iHOT爱院线" group-title="数字特种",iHOT爱院线
-http://171.213.114.121:4500/rtp/239.94.1.132:5140
-#EXTINF:-1 tvg-name="bestv" group-title="数字特种",bestv
-http://171.213.114.121:4500/rtp/239.94.2.57:5140
-#EXTINF:-1 tvg-name="i成都" group-title="数字特种",i成都
-http://171.213.114.121:4500/rtp/239.94.2.1:5140
-#EXTINF:-1 tvg-name="九画面15" group-title="数字特种",九画面15
-http://171.213.114.121:4500/rtp/239.94.2.138:5140
-#EXTINF:-1 tvg-name="九画面四川1" group-title="数字特种",九画面四川1
-http://171.213.114.121:4500/rtp/239.94.2.131:5140
-#EXTINF:-1 tvg-name="九画面四川2" group-title="数字特种",九画面四川2
-http://171.213.114.121:4500/rtp/239.94.2.130:5140
-#EXTINF:-1 tvg-name="九画面央视1" group-title="数字特种",九画面央视1
-http://171.213.114.121:4500/rtp/239.94.2.128:5140
-#EXTINF:-1 tvg-name="九画面央视1" group-title="数字特种",九画面央视1
-http://171.213.114.121:4500/rtp/239.94.2.73:5140
-#EXTINF:-1 tvg-name="九画面央视2" group-title="数字特种",九画面央视2
-http://171.213.114.121:4500/rtp/239.94.2.129:5140
-#EXTINF:-1 tvg-name="云看熊猫专区" group-title="数字特种",云看熊猫专区
-http://171.213.114.121:4500/rtp/239.94.1.7:5140
-#EXTINF:-1 tvg-name="健康养生" group-title="数字特种",健康养生
-http://171.213.114.121:4500/rtp/239.94.1.27:5140
-#EXTINF:-1 tvg-name="全球大片" group-title="数字特种",全球大片
-http://171.213.114.121:4500/rtp/239.94.1.24:5140
-#EXTINF:-1 tvg-name="军事专区" group-title="数字特种",军事专区
-http://171.213.114.121:4500/rtp/239.94.1.52:5140
-#EXTINF:-1 tvg-name="华语影院" group-title="数字特种",华语影院
-http://171.213.114.121:4500/rtp/239.94.1.22:5140
-#EXTINF:-1 tvg-name="四海钓鱼" group-title="数字特种",四海钓鱼
-http://171.213.114.121:4500/rtp/239.94.1.168:5140
-#EXTINF:-1 tvg-name="地理专区" group-title="数字特种",地理专区
-http://171.213.114.121:4500/rtp/239.94.1.54:5140
-#EXTINF:-1 tvg-name="墨宝专区" group-title="数字特种",墨宝专区
-http://171.213.114.121:4500/rtp/239.94.1.51:5140
-#EXTINF:-1 tvg-name="大爱四川专区" group-title="数字特种",大爱四川专区
-http://171.213.114.121:4500/rtp/239.94.1.12:5140
-#EXTINF:-1 tvg-name="大爱四川专区" group-title="数字特种",大爱四川专区
-http://171.213.114.121:4500/rtp/239.94.1.13:5140
-#EXTINF:-1 tvg-name="大爱四川专区" group-title="数字特种",大爱四川专区
-http://171.213.114.121:4500/rtp/239.94.1.14:5140
-#EXTINF:-1 tvg-name="大爱时尚专区" group-title="数字特种",大爱时尚专区
-http://171.213.114.121:4500/rtp/239.94.1.15:5140
-#EXTINF:-1 tvg-name="宝宝动画" group-title="数字特种",宝宝动画
-http://171.213.114.121:4500/rtp/239.94.1.32:5140
-#EXTINF:-1 tvg-name="导视" group-title="数字特种",导视
-http://171.213.114.121:4500/rtp/239.94.1.64:5140
-#EXTINF:-1 tvg-name="戏曲专区" group-title="数字特种",戏曲专区
-http://171.213.114.121:4500/rtp/239.94.1.38:5140
-#EXTINF:-1 tvg-name="收视指南专区" group-title="数字特种",收视指南专区
-http://171.213.114.121:4500/rtp/239.94.1.56:5140
-#EXTINF:-1 tvg-name="星光院线" group-title="数字特种",星光院线
-http://171.213.114.121:4500/rtp/239.94.1.23:5140
-#EXTINF:-1 tvg-name="未知节目" group-title="数字特种",未知节目
-http://171.213.114.121:4500/rtp/239.94.2.72:5140
-#EXTINF:-1 tvg-name="未识别" group-title="数字特种",未识别
-http://171.213.114.121:4500/rtp/239.94.2.25:5140
-#EXTINF:-1 tvg-name="来钓鱼吧" group-title="数字特种",来钓鱼吧
-http://171.213.114.121:4500/rtp/239.94.1.148:5140
-#EXTINF:-1 tvg-name="热门综艺" group-title="数字特种",热门综艺
-http://171.213.114.121:4500/rtp/239.94.1.35:5140
-#EXTINF:-1 tvg-name="爱乐山" group-title="数字特种",爱乐山
-http://171.213.114.121:4500/rtp/239.94.2.2:5140
-#EXTINF:-1 tvg-name="爱宠宠物" group-title="数字特种",爱宠宠物
-http://171.213.114.121:4500/rtp/239.94.1.145:5140
-#EXTINF:-1 tvg-name="电信5G" group-title="数字特种",电信5G
-http://171.213.114.121:4500/rtp/239.94.2.4:5140
-#EXTINF:-1 tvg-name="电竞天堂" group-title="数字特种",电竞天堂
-http://171.213.114.121:4500/rtp/239.94.1.45:5140
-#EXTINF:-1 tvg-name="百变课堂" group-title="数字特种",百变课堂
-http://171.213.114.121:4500/rtp/239.94.1.43:5140
-#EXTINF:-1 tvg-name="直播室1" group-title="数字特种",直播室1
-http://171.213.114.121:4500/rtp/239.94.2.11:5140
-#EXTINF:-1 tvg-name="直播室2" group-title="数字特种",直播室2
-http://171.213.114.121:4500/rtp/239.94.2.12:5140
-#EXTINF:-1 tvg-name="直播室3" group-title="数字特种",直播室3
-http://171.213.114.121:4500/rtp/239.94.2.13:5140
-#EXTINF:-1 tvg-name="直播室3" group-title="数字特种",直播室3
-http://171.213.114.121:4500/rtp/239.94.2.14:5140
-#EXTINF:-1 tvg-name="直播室5" group-title="数字特种",直播室5
-http://171.213.114.121:4500/rtp/239.94.2.15:5140
-#EXTINF:-1 tvg-name="直播室6" group-title="数字特种",直播室6
-http://171.213.114.121:4500/rtp/239.94.2.16:5140
-#EXTINF:-1 tvg-name="直播室7" group-title="数字特种",直播室7
-http://171.213.114.121:4500/rtp/239.94.2.17:5140
-#EXTINF:-1 tvg-name="直播室8" group-title="数字特种",直播室8
-http://171.213.114.121:4500/rtp/239.94.2.18:5140
-#EXTINF:-1 tvg-name="精彩推荐" group-title="数字特种",精彩推荐
-http://171.213.114.121:4500/rtp/239.94.2.10:5140
-#EXTINF:-1 tvg-name="红色影院" group-title="数字特种",红色影院
-http://171.213.114.121:4500/rtp/239.94.1.48:5140
-#EXTINF:-1 tvg-name="综艺咖秀" group-title="数字特种",综艺咖秀
-http://171.213.114.121:4500/rtp/239.94.2.28:5140
-#EXTINF:-1 tvg-name="综艺咖秀" group-title="数字特种",综艺咖秀
-http://171.213.114.121:4500/rtp/239.94.2.27:5140
-#EXTINF:-1 tvg-name="解密专区" group-title="数字特种",解密专区
-http://171.213.114.121:4500/rtp/239.94.1.53:5140
-#EXTINF:-1 tvg-name="风景" group-title="数字特种",风景
-http://171.213.114.121:4500/rtp/239.94.2.74:5140
-#EXTINF:-1 tvg-name="风景直播1" group-title="数字特种",风景直播1
-http://171.213.114.121:4500/rtp/239.94.2.19:5140
-#EXTINF:-1 tvg-name="风景直播2" group-title="数字特种",风景直播2
-http://171.213.114.121:4500/rtp/239.94.2.20:5140
-#EXTINF:-1 tvg-name="风景直播3" group-title="数字特种",风景直播3
-http://171.213.114.121:4500/rtp/239.94.2.23:5140
 #EXTINF:-1 tvg-name="CHC家庭影院HD" group-title="数字特种",CHC家庭影院HD
 http://121.63.54.15:4022/rtp/239.69.1.243:11100
 #EXTINF:-1 tvg-name="风云音乐HD" group-title="数字特种",风云音乐HD
@@ -1825,16 +1375,6 @@ http://123.96.31.99:9999/rtp/233.50.201.205:5140
 http://123.96.31.99:9999/rtp/233.50.201.207:5140
 #EXTINF:-1 tvg-name="睛彩广场舞蹈" group-title="数字特种",睛彩广场舞蹈
 http://123.96.31.99:9999/rtp/233.50.202.29:5140
-#EXTINF:-1 tvg-name="快乐垂钓" group-title="体育频道",快乐垂钓
-http://171.213.114.121:4500/rtp/239.94.1.153:5140
-#EXTINF:-1 tvg-name="爱体育" group-title="体育频道",爱体育
-http://171.213.114.121:4500/rtp/239.94.1.44:5140
-#EXTINF:-1 tvg-name="iHOT爱体育" group-title="体育频道",iHOT爱体育
-http://171.213.114.121:4500/rtp/239.94.1.143:5140
-#EXTINF:-1 tvg-name="足球专区" group-title="体育频道",足球专区
-http://171.213.114.121:4500/rtp/239.94.1.47:5140
-#EXTINF:-1 tvg-name="麻辣体育" group-title="体育频道",麻辣体育
-http://171.213.114.121:4500/rtp/239.94.1.149:5140
 #EXTINF:-1 tvg-name="风云足球HD" group-title="体育频道",风云足球HD
 http://121.63.54.15:4022/rtp/239.69.1.81:10126
 #EXTINF:-1 tvg-name="兵器科技HD" group-title="体育频道",兵器科技HD
@@ -1907,20 +1447,6 @@ http://123.96.31.99:9999/rtp/233.50.201.177:5140
 http://123.96.31.99:9999/rtp/233.50.201.204:5140
 #EXTINF:-1 tvg-name="百事通体育直播2" group-title="体育频道",百事通体育直播2
 http://123.96.31.99:9999/rtp/233.50.201.206:5140
-#EXTINF:-1 tvg-name="动漫秀场" group-title="少儿频道",动漫秀场
-http://171.213.114.121:4500/rtp/239.94.1.171:5140
-#EXTINF:-1 tvg-name="成都少儿" group-title="少儿频道",成都少儿
-http://171.213.114.121:4500/rtp/239.94.0.159:5140
-#EXTINF:-1 tvg-name="少儿动画" group-title="少儿频道",少儿动画
-http://171.213.114.121:4500/rtp/239.94.1.33:5140
-#EXTINF:-1 tvg-name="iHOT爱动漫" group-title="少儿频道",iHOT爱动漫
-http://171.213.114.121:4500/rtp/239.94.1.141:5140
-#EXTINF:-1 tvg-name="iHOT爱玩具" group-title="少儿频道",iHOT爱玩具
-http://171.213.114.121:4500/rtp/239.94.1.140:5140
-#EXTINF:-1 tvg-name="少儿天地" group-title="少儿频道",少儿天地
-http://171.213.114.121:4500/rtp/239.94.1.138:5140
-#EXTINF:-1 tvg-name="青春动漫" group-title="少儿频道",青春动漫
-http://171.213.114.121:4500/rtp/239.94.1.34:5140
 #EXTINF:-1 tvg-name="动漫秀场HD" group-title="少儿频道",动漫秀场HD
 http://121.63.54.15:4022/rtp/239.69.2.6:11190
 #EXTINF:-1 tvg-name="金鹰卡通HD" group-title="少儿频道",金鹰卡通HD
@@ -1965,14 +1491,6 @@ http://123.96.31.99:9999/rtp/233.50.200.166:5140
 http://123.96.31.99:9999/rtp/233.50.202.33:5140
 #EXTINF:-1 tvg-name="浙江少儿" group-title="少儿频道",浙江少儿
 http://123.96.31.99:9999/rtp/233.50.201.138:5140
-#EXTINF:-1 tvg-name="CETV1" group-title="教育频道",CETV1
-http://171.213.114.121:4500/rtp/239.94.1.2:5140
-#EXTINF:-1 tvg-name="CETV4" group-title="教育频道",CETV4
-http://171.213.114.121:4500/rtp/239.94.1.20:5140
-#EXTINF:-1 tvg-name="金色学堂" group-title="教育频道",金色学堂
-http://171.213.114.121:4500/rtp/239.94.1.165:5140
-#EXTINF:-1 tvg-name="乐龄学堂" group-title="教育频道",乐龄学堂
-http://171.213.114.121:4500/rtp/239.94.1.155:5140
 #EXTINF:-1 tvg-name="CETV1HD" group-title="教育频道",CETV1HD
 http://121.63.54.15:4022/rtp/239.69.1.110:10298
 #EXTINF:-1 tvg-name="CETV4HD" group-title="教育频道",CETV4HD
@@ -2019,12 +1537,6 @@ http://123.96.31.99:9999/rtp/233.50.200.174:5140
 http://123.96.31.99:9999/rtp/233.50.201.186:5140
 #EXTINF:-1 tvg-name="金色学堂" group-title="教育频道",金色学堂
 http://123.96.31.99:9999/rtp/233.50.200.122:5140
-#EXTINF:-1 tvg-name="四川星空购物" group-title="购物频道",四川星空购物
-http://171.213.114.121:4500/rtp/239.94.0.74:5140
-#EXTINF:-1 tvg-name="戏曲精选" group-title="购物频道",戏曲精选
-http://171.213.114.121:4500/rtp/239.94.1.37:5140
-#EXTINF:-1 tvg-name="看天下精选" group-title="购物频道",看天下精选
-http://171.213.114.121:4500/rtp/239.94.1.68:5140
 #EXTINF:-1 tvg-name="央广购物HD" group-title="购物频道",央广购物HD
 http://116.231.242.206:4022/rtp/233.18.204.39:5140
 #EXTINF:-1 tvg-name="东方购物1HD" group-title="购物频道",东方购物1HD
@@ -2049,48 +1561,6 @@ http://114.228.50.248:18888/rtp/239.49.1.167:6000
 http://114.228.50.248:18888/rtp/239.49.1.241:6000
 #EXTINF:-1 tvg-name="家有购物" group-title="购物频道",家有购物
 http://114.228.50.248:18888/rtp/239.49.1.252:6000
-#EXTINF:-1 tvg-name="CCTV4K" group-title="4K频道",CCTV4K
-http://171.213.114.121:4500/rtp/239.94.0.20:5140
-#EXTINF:-1 tvg-name="北京卫视4K" group-title="4K频道",北京卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.111:5140
-#EXTINF:-1 tvg-name="北京卫视4K" group-title="4K频道",北京卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.112:5140
-#EXTINF:-1 tvg-name="东方卫视4K" group-title="4K频道",东方卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.119:5140
-#EXTINF:-1 tvg-name="广东卫视4K" group-title="4K频道",广东卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.114:5140
-#EXTINF:-1 tvg-name="深圳卫视4K" group-title="4K频道",深圳卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.113:5140
-#EXTINF:-1 tvg-name="湖南卫视4K" group-title="4K频道",湖南卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.116:5140
-#EXTINF:-1 tvg-name="山东卫视4K" group-title="4K频道",山东卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.120:5140
-#EXTINF:-1 tvg-name="四川卫视4K" group-title="4K频道",四川卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.115:5140
-#EXTINF:-1 tvg-name="浙江卫视4K" group-title="4K频道",浙江卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.118:5140
-#EXTINF:-1 tvg-name="江苏卫视4K" group-title="4K频道",江苏卫视4K
-http://171.213.114.121:4500/rtp/239.94.0.117:5140
-#EXTINF:-1 tvg-name="欢笑剧场4K" group-title="4K频道",欢笑剧场4K
-http://171.213.114.121:4500/rtp/239.94.1.176:5140
-#EXTINF:-1 tvg-name="爱上4K" group-title="4K频道",爱上4K
-http://171.213.114.121:4500/rtp/239.94.0.21:5140
-#EXTINF:-1 tvg-name="4K乐享超清" group-title="4K频道",4K乐享超清
-http://171.213.114.121:4500/rtp/239.94.1.162:5140
-#EXTINF:-1 tvg-name="4K少儿" group-title="4K频道",4K少儿
-http://171.213.114.121:4500/rtp/239.94.1.70:5140
-#EXTINF:-1 tvg-name="4K纪实" group-title="4K频道",4K纪实
-http://171.213.114.121:4500/rtp/239.94.1.69:5140
-#EXTINF:-1 tvg-name="4K视界" group-title="4K频道",4K视界
-http://171.213.114.121:4500/rtp/239.94.1.60:5140
-#EXTINF:-1 tvg-name="亲子趣学4k" group-title="4K频道",亲子趣学4k
-http://171.213.114.121:4500/rtp/239.94.1.156:5140
-#EXTINF:-1 tvg-name="天翼高清4K" group-title="4K频道",天翼高清4K
-http://171.213.114.121:4500/rtp/239.94.2.40:5140
-#EXTINF:-1 tvg-name="天翼高清4K" group-title="4K频道",天翼高清4K
-http://171.213.114.121:4500/rtp/239.94.2.41:5140
-#EXTINF:-1 tvg-name="绚影4K" group-title="4K频道",绚影4K
-http://171.213.114.121:4500/rtp/239.94.1.150:5140
 #EXTINF:-1 tvg-name="CCTV4K" group-title="4K频道",CCTV4K
 http://121.63.54.15:4022/rtp/239.69.1.111:10304
 #EXTINF:-1 tvg-name="CCTV16 4K" group-title="4K频道",CCTV16 4K
